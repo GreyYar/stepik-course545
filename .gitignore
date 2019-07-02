@@ -1,3 +1,5 @@
 conftest-task/__pycache__/
 conftest-task/.pytest_cache/
-conftest-task/geckodriver.log
+conftest-task/*.log
+.pytest_cache/
+*.log
