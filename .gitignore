@@ -1,5 +1,6 @@
 conftest-task/__pycache__/
 conftest-task/.pytest_cache/
 conftest-task/*.log
+__pycache__/
 .pytest_cache/
 *.log
