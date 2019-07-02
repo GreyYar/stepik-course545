@@ -4,9 +4,9 @@ Test repo for homework
 
 
 
-# Задание: запуск автотестов для разных языков интерфейса
+## Задание: запуск автотестов для разных языков интерфейса
 Файлы находятся в директории `conftest-task`  
 
-Примеры запуска скрипта из папки conftest-task:  
-* `pytest --language=fr`  
-* `pytest -s -v --browser=firefox --language=es`  
+Примеры запуска скрипта, находясь в папке проекта:  
+* `pytest --language=fr conftest-task\`  
+* `pytest --browser_name=firefox --language=es conftest-task\`  
