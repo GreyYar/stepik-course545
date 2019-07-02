@@ -28,6 +28,7 @@ def browser(request):
     else:
         print("Browser {} still is not implemented".format(browser_name))
         browser = None
+    browser.implicitly_wait(5)
     yield browser
     time.sleep(5)
     print("\nquit browser..")
